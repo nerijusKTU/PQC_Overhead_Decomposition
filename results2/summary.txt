@@ -1,0 +1,6 @@
+Scenario                  C P50    H P50     Delta    Ovhd%    Slow
+============================================================
+S0: Direct veth     [nėra duomenų]
+S1: Datacenter 1ms  [nėra duomenų]
+S2: Broadband 35ms  [nėra duomenų]
+S3: Mobile 70ms     [nėra duomenų]

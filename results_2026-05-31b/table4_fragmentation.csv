@@ -1,0 +1,6 @@
+metric,x25519,x25519mlkem768,delta
+clienthello_bytes,464,1640,1176
+serverhello_bytes,1367,2441,1074
+total_overhead,0,0,2250
+total_packets,17,14,-3
+mss_exceeded,no,yes,180

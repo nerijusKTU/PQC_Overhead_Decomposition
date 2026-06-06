@@ -1,0 +1,5 @@
+scenario,description,configured_delay_ms,configured_loss_pct,configured_rate,ping_rtt_min_ms,ping_rtt_avg_ms,ping_rtt_max_ms,ping_loss_pct
+S0,Direct veth,0,0,unlimited,0.036,0.049,0.067,0
+S1,Datacenter,0.5,0,1gbit,1.886,2.260,3.013,0
+S2,Broadband,17.5,0.1,10mbit,35.344,39.648,52.075,0
+S3,Mobile 4G,35,3,10mbit,70.768,72.117,73.480,20

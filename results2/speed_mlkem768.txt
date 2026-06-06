@@ -1,0 +1,23 @@
+Configuration info
+==================
+Target platform:  x86_64-Linux-5.15.0-139-generic
+Compiler:         gcc (9.4.0)
+Compile options:  [-Wa,--noexecstack;-O3;-fomit-frame-pointer;-fdata-sections;-ffunction-sections;-Wl,--gc-sections;-Wbad-function-cast]
+OQS version:      0.12.0 (major: 0, minor: 12, patch: 0)
+Git commit:       f4b96220e4bd208895172acc4fedb5a191d9f5b1
+OpenSSL enabled:  Yes (OpenSSL 1.1.1f  31 Mar 2020)
+AES:              NI
+SHA-2:            OpenSSL
+SHA-3:            C
+OQS build flags:  BUILD_SHARED_LIBS OQS_DIST_BUILD OQS_LIBJADE_BUILD OQS_OPT_TARGET=generic CMAKE_BUILD_TYPE=Release 
+CPU exts active:  ADX AES BMI1 BMI2 PCLMULQDQ POPCNT
+Speed test
+==========
+Started at 2026-04-20 09:22:35
+Operation                            | Iterations | Total time (s) | Time (us): mean | pop. stdev | CPU cycles: mean          | pop. stdev
+------------------------------------ | ----------:| --------------:| ---------------:| ----------:| -------------------------:| ----------:
+ML-KEM-768                           |            |                |                 |            |                           |           
+keygen                               |     111706 |          5.000 |          44.761 |     48.447 |                    125387 |     135774
+encaps                               |     105874 |          5.000 |          47.226 |     31.100 |                    132295 |      87145
+decaps                               |      80421 |          5.000 |          62.173 |    137.880 |                    174210 |     386459
+Ended at 2026-04-20 09:22:50
